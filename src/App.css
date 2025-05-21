@@ -1,0 +1,75 @@
+.boxes {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+
+.sold{
+    height: 250px;
+    width: 300px;
+    border-style: solid;
+
+    color: green;
+    border-color: green;
+    background-color: #0080004D;
+}
+.bought {
+    height: 250px;
+    width: 300px;
+    border-style: solid;
+
+    color: blue;
+    border-color: blue;
+    background-color: rgba(0, 0, 255, 0.38);
+
+}
+.goal{
+    height: 250px;
+    width: 300px;
+    border-style: solid;
+
+    color: red;
+    border-color: red;
+    background-color: #FF00004D;
+
+}
+h2 {
+    padding: 20px 0;
+}
+.BestSoldTv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px dotted #aaa;
+    /*padding: 20px;*/
+    gap: 30px;
+    width: max-content;
+    margin: 0 auto;
+}
+.TextOfBestSoldTv{
+    display: flex;
+    flex-direction: column;
+}
+.BestSoldTv img {
+    border-radius: 8px;
+    max-width: 300px;
+    height: auto;
+}
+.BestSoldTv .info {
+    /*gap: 10px;*/
+}
+
+.BestSoldTv .info h2 {
+    /*margin: 0;*/
+}
+.option-icon {
+    padding: 0;
+    margin: 0;
+    width: 12px;
+
+}
+

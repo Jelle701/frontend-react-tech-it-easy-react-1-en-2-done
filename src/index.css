@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;500&display=swap');
 
+* {
+  margin: 0px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 0;
+}
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;

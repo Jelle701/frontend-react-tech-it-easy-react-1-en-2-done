@@ -37,7 +37,7 @@ export const bestSellingTv = {
 }
 
 // STATISCHE VOORRAAD TV'S
-export let inventory = [
+export let inventory  = [
     {
         type: '43PUS6504/12',
         name: '4K TV',
